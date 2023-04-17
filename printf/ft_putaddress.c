@@ -15,7 +15,7 @@
 void	ft_putaddress(unsigned long int nbr, int *size)
 {
 	if (!nbr)
-		ft_putstr("nil", size);
+		ft_putstr("(nil)", size);
 	else
 	{
 		if (nbr < 16)
